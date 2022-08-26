@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="C5J-Cb-H8M">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5Ez-zh-eac">
+            <objects>
+                <viewController id="C5J-Cb-H8M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N1t-HN-U0H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="espritLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hts-bc-By5">
+                                <rect key="frame" x="0.0" y="-339.5" width="414" height="1575"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flags" translatesAutoresizingMaskIntoConstraints="NO" id="rGH-4G-DY0">
+                                <rect key="frame" x="0.0" y="33" width="414" height="222"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tut-7t-Gpy"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rGH-4G-DY0" firstAttribute="top" secondItem="tut-7t-Gpy" secondAttribute="top" constant="-11" id="10Y-6t-37h"/>
+                            <constraint firstItem="tut-7t-Gpy" firstAttribute="trailing" secondItem="rGH-4G-DY0" secondAttribute="trailing" id="2M7-DG-HSA"/>
+                            <constraint firstItem="hts-bc-By5" firstAttribute="centerX" secondItem="N1t-HN-U0H" secondAttribute="centerX" id="5GG-ek-FcH"/>
+                            <constraint firstItem="hts-bc-By5" firstAttribute="leading" secondItem="N1t-HN-U0H" secondAttribute="leading" id="CT4-0I-p8A"/>
+                            <constraint firstItem="rGH-4G-DY0" firstAttribute="leading" secondItem="tut-7t-Gpy" secondAttribute="leading" id="JAr-LN-Qm9"/>
+                            <constraint firstAttribute="trailing" secondItem="hts-bc-By5" secondAttribute="trailing" id="NeR-l0-goA"/>
+                            <constraint firstItem="hts-bc-By5" firstAttribute="centerY" secondItem="N1t-HN-U0H" secondAttribute="centerY" id="hzY-fH-HDB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Md-U7-vuF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="espritLogo" width="3519" height="1575"/>
+        <image name="flags" width="375" height="222"/>
+    </resources>
+</document>
