@@ -1,22 +1,65 @@
+<div align="center">
+
 # Esprit Mobile
-Internship project with Esprit
-This project is a mobile application project designed for anyone who's curious about Esprit which provides the easiest way to make searchs for public services.
-This application lets the user log in account, search for teachers, services and the buildings with their offices
-<p align="center">
-<img src="https://shiva-engine.com/wp-content/uploads/2017/10/xcode-logo-small.png" width="300" height="300">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/404px-Apple_logo_black.svg.png" width="300" height="300">
-</p>
 
-<h1 align="center"><project-name></h1>
+**Native iOS campus app for ESPRIT students — teachers, schedule, AR campus map**
 
-<p align="center"><project-description></p>
+[![Swift](https://img.shields.io/badge/Swift-5-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/swift/)
+[![ARKit](https://img.shields.io/badge/ARKit-Augmented%20Reality-000000?style=for-the-badge&logo=apple&logoColor=white)](https://developer.apple.com/augmented-reality/)
+[![Xcode](https://img.shields.io/badge/Xcode-14-147EFB?style=for-the-badge&logo=xcode&logoColor=white)](https://developer.apple.com/xcode/)
 
-### Excute the project
-### Change the storyboard wich is the UI of the app
+<br/>
 
-The app is built using Xcode.
-## Built With
+[![Platform](https://img.shields.io/badge/Platform-iOS-000000?style=flat-square&logo=apple)](./)
+[![School](https://img.shields.io/badge/School-ESPRIT%20Tunisia-D4A86C?style=flat-square)](./)
 
-- Xcode
-- Node js 
-- MongoDB
+</div>
+
+---
+
+## 📖 About
+
+**Esprit Mobile** is a native iOS application built for [ESPRIT](https://esprit.tn) students. It centralizes everything students need — school news, teacher contacts, campus navigation and academic services — in one sleek iOS app.
+
+Built during an internship at ESPRIT, the app showcases native iOS development with **ARKit** for augmented reality campus features.
+
+---
+
+## ✨ Features
+
+- **📰 News & Events** — Latest school news and upcoming campus events
+- **👨‍🏫 Teacher Directory** — Contact info and biographies for all teachers
+- **🗓️ Schedule** — Personal class schedule and timetable
+- **🗺️ AR Campus Map** — Augmented reality navigation to find buildings & offices
+- **🔐 Card Authentication** — Camera-based student card login with AR activation
+- **📝 Requests** — Submit academic paper requests directly from the app
+- **📊 Grades** — Check exam results and grades
+
+---
+
+## 🛠️ Stack
+
+| Technology | Usage |
+|---|---|
+| **Swift 5** | Main language |
+| **UIKit** | UI framework |
+| **ARKit** | Augmented reality campus map |
+| **CoreLocation** | Campus navigation |
+| **REST API** | Backend integration |
+| **Xcode** | IDE |
+
+---
+
+## 🏗️ Architecture
+
+- **MVC** pattern
+- Storyboard-based UI with Auto Layout (multi-device support from iPhone 4s → iPhone 13)
+- Camera-based authentication with AR overlay post-login
+
+---
+
+<div align="center">
+
+Built by **[Mohamed Melek Chtourou](https://mohamedmelekchtourou.com)**
+
+</div>
