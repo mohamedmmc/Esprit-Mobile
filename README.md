@@ -31,9 +31,8 @@ Built during an internship at ESPRIT, the app showcases native iOS development w
 - **👨‍🏫 Teacher Directory** — Contact info and biographies for all teachers
 - **🗓️ Schedule** — Personal class schedule and timetable
 - **🗺️ Campus Map** — Interactive 2D map (MapKit) with building & office annotations
+- **🏢 Campus Services** — Browse a searchable directory of administrative services & desks
 - **🔐 Student Login** — Simple name-based login screen
-- **📝 Requests** — Submit academic paper requests directly from the app
-- **📊 Grades** — Check exam results and grades
 
 ---
 
